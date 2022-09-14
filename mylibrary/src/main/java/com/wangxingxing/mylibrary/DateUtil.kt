@@ -5,9 +5,9 @@ import java.util.*
 
 
 /**
- * author : 王星星
- * date : 2022/9/13 17:29
- * email : 1099420259@qq.com
+ * author      : 王星星
+ * date        : 2022/9/14 15:07
+ * email       : 1099420259@qq.com
  * description : 时间和日期工具类
  */
 object DateUtil {

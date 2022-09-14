@@ -2,6 +2,7 @@ package com.wangxingxing.wxxutils
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.blankj.utilcode.util.Utils
 import com.wangxingxing.mylibrary.DateUtil
 import com.wangxingxing.wxxutils.databinding.ActivityMainBinding
 
@@ -22,5 +23,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.tvContent.text = DateUtil.getDate(System.currentTimeMillis())
+
+        Utils.init(application)
     }
 }
